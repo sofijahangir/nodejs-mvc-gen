@@ -1,0 +1,32 @@
+{
+    "name": "node-mvc-gen",
+    "version": "1.0.0",
+    "description": "A Node.js project generator with controllers, routers, models, and more.",
+    "main": "index.js",
+    "bin": {
+        "generate": "./cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "node.js",
+        "express",
+        "generator",
+        "fullstack",
+        "project structure"
+    ],
+    "author": "Jahangir Ahmad",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "execa": "^8.0.1",
+        "express": "^4.17.1",
+        "fs-extra": "^11.1.1",
+        "path": "^0.12.7"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sofijahangir/nodejs-mvc-gen.git"
+    }
+}
