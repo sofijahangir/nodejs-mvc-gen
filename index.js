@@ -36,7 +36,7 @@ function generateProjectStructure(projectName) {
 
   const formattedAppJsCode = prettier.format(appJsCode, { parser: 'babel' });
 
-  fs.writeFileSync(path.join(apiDir, 'app.js'), formattedAppJsCode.trim());
+  fs.writeFileSync(path.join(apiDir, 'app.js'), formattedAppJsCode);
 
   // Install dependencies in the api directory
   try {
